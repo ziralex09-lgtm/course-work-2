@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+*.tmp
+food_delivery_data.json.damaged
