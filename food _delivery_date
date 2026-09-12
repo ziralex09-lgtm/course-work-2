@@ -1,0 +1,71 @@
+{
+    "orders": [
+        {
+            "order_id": "ORD0001",
+            "customer": "CYBERTRIN",
+            "phone": "0772590517",
+            "distance_km": 3000.0,
+            "items": [
+                {
+                    "code": "S03",
+                    "name": "Rolex",
+                    "category": "Snacks",
+                    "price": 6000,
+                    "quantity": 4
+                }
+            ],
+            "subtotal": 24000,
+            "delivery_fee": 8000,
+            "total": 32000,
+            "status": "Pending",
+            "rider_id": "R03",
+            "rider_name": "Charles",
+            "created_at": "2026-09-05T16:23:46"
+        },
+        {
+            "order_id": "ORD0002",
+            "customer": "CYBERTRIN",
+            "phone": "0772590517",
+            "distance_km": 700.0,
+            "items": [
+                {
+                    "code": "M01",
+                    "name": "Chicken and Chips",
+                    "category": "Meals",
+                    "price": 12000,
+                    "quantity": 14
+                }
+            ],
+            "subtotal": 168000,
+            "delivery_fee": 0,
+            "total": 168000,
+            "status": "Preparing",
+            "rider_id": "R01",
+            "rider_name": "Alex",
+            "created_at": "2026-09-10T06:43:49",
+            "updated_at": "2026-09-10T06:45:44"
+        }
+    ],
+    "riders": {
+        "R01": {
+            "id": "R01",
+            "name": "Alex",
+            "available": false
+        },
+        "R02": {
+            "id": "R02",
+            "name": "Brian",
+            "available": true
+        },
+        "R03": {
+            "id": "R03",
+            "name": "Charles",
+            "available": false
+        },
+        "R04": {
+            "id": "R04",
+            "name": "David",
+            "available": true
+        }
+    }
+}
